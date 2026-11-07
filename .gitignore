@@ -1,1 +1,32 @@
 __pycache__
+
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Dataset and downloaded audio
+data/
+*.wav
+*.flac
+*.tar
+*.parquet
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Training outputs
+logs/
+*.log
+wandb/
+
+# Downloaded pretrained model repositories
+Models/
+StyleTTS2-LJSpeech/
+StyleTTS2-LibriTTS/
+
+# System files
+.DS_Store
